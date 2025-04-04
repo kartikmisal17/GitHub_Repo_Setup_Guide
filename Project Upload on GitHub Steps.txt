@@ -1,4 +1,4 @@
-Step 1: Git Install Karna (Agar Pehle Se Installed Nahi Hai)
+Step 1: Git Install Karna (Agar Pehle Se Installed Nahi Hai)   ---- https://git-scm.com/downloads
    Download hone ke baad cmd open karke niche wali command run kare 
 
 Step 2: git --version 
