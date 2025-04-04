@@ -1,0 +1,40 @@
+Step 1: Git Install Karna (Agar Pehle Se Installed Nahi Hai)
+   Download hone ke baad cmd open karke niche wali command run kare 
+
+Step 2: git --version 
+   git ka version dikha raha hai toh successfully install hogaya hai
+
+Step 3: GitHub Account Banaana Aur Repository Create Karna
+GitHub par jao aur sign up/sign in karo.
+
+        i) New Repository create karo:
+        ii) Repository Name: MyProject 
+        iii) Create Repository button click karo.
+        iv) HTTPS Clone URL copy karo (e.g., https://github.com/your-username/MyProject.git).
+
+Step 4: VS Code Open Karo Aur Project Initialize Karo.
+VS Code Open Karo aur apne project folder me jao.
+
+1.Terminal Open Karo: 
+        i) Agar Pehli Baar Git Initialize Kar Rahe Ho:
+                           git init  -------- Yeh command project ko Git repository me convert kar degi.
+        ii) Check Karo Ki Kaunse Files Hain:
+                          git status  ---------- Yeh dikhayega ki kaunse files track ho rahi hain aur kaunse nahi.
+        iii) Sabhi Files Ko Add Karo:
+                          git add .   ---------- Iska matlab hai ki sabhi files ko Git me track karo.
+        iv) First Commit Banao:
+                        git commit -m "First commit" --------  Isse yeh changes save ho jayenge (locally).
+         
+ Step 5: GitHub Repository Se Link Karo (Remote Add Karo)
+ 1.Terminal Open Karo: 
+         i) git remote add origin https://github.com/your-username/MyProject.git  -----------  Yeh command batayegi ki humari local repo kis GitHub repo se connected hai.
+         ii) Ensure Ki Branch 'main' Hai: 
+                      git branch -M main ---------- GitHub ke latest updates ke hisaab se master branch ki jagah main use hota hai.
+         iii) Agar Pehle Se Remote Origin Hai Aur Error Aa Raha Hai:
+                      a)git remote remove origin
+                      b)git remote add origin https://github.com/your-username/MyProject.git
+
+ Step 6: Code GitHub Pe Push Karo
+          i) git push origin main  ----------Isse aapka project GitHub pe upload ho jayega.
+
+

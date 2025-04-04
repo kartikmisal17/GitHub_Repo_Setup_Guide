@@ -1,0 +1,58 @@
+//To clone a Git project into VS Code, follow these steps
+
+Step 1: Copy the Repository URL 
+Go to the GitHub, GitLab, or Bitbucket repository you want to clone. 
+Click the "Code" button (on GitHub) or equivalent. 
+Copy the HTTPS or SSH repository URL. 
+
+Step 2: Open VS Code and Clone the Repository 
+Open VS Code. 
+Open the Command Palette (Ctrl + Shift + P or Cmd + Shift + P on Mac). 
+Type "Git: Clone" and select Git: Clone. 
+Paste the repository URL and press Enter. 
+Choose a folder on your local system to save the project. 
+Wait for the cloning process to complete. 
+
+Step 3: Open the Cloned Project 
+After cloning, VS Code will ask if you want to open the cloned project. 
+Click "Open" to open the project in VS Code. 
+-----------------------------------------------------------
+To make and commit changes in Git using VS Code, follow these steps: 
+
+1. Make Changes 
+Open your cloned project in VS Code. 
+Edit the files as needed. 
+
+2. Check the Changes 
+Open the Source Control panel (Ctrl + Shift + G or click the Git icon in the left sidebar). 
+You will see all modified files under the Changes section. 
+
+3. Stage the Changes. 
+Click the "+" (Stage All) button to stage all changes. 
+OR 
+Click on each file and click "+" next to it to stage individually. 
+
+4. Commit the Changes. 
+In the Source Control panel, type a commit message in the text box (e.g., "Fixed bug in login page"). 
+Click" Commit" (or press Ctrl + Enter). 
+
+5. Push the Changes to GitHub 
+Click "Sync Changes" ( icon) in the bottom status bar OR run: 
+CSS 
+Copy 
+Edit 
+git push origin main 
+(Replace main with your branch name if different.)
+ Additional Git Commands in Terminal (Optional)
+ If you prefer using the terminal inside VS Code (Ctrl+ to open it): 
+
+sh 
+Copy 
+Edit 
+
+git status 
+# Check changes 
+git add. 
+#Stage all changes 
+git commit -m "Your commit message" #Commit changes 
+git push origin main # Push changes. 
