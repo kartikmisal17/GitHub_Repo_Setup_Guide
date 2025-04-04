@@ -1,0 +1,33 @@
+//Project Clone From GitHub (Steps)
+
+ Step 1: GitHub Repository Open Karo
+        1) Browser me jao aur jis project ko clone karna hai, uska GitHub link open karo.
+                    Example:https://github.com/your-username/MyProject
+        2) Us page pe green color ka "Code" button dikhega — uspe click karo.
+        3) Wahaan 3 options milenge: HTTPS, SSH, GitHub CLI
+        4) HTTPS select karo (recommended for beginners).
+            i) URL copy karo.
+                    Example:https://github.com/your-username/MyProject.git
+
+Step 2: Apne System Me Folder Choose Karo (Jis location pe aap project clone karna chahte ho, us path pe jaake:)
+        1) Right click karo > "Open with Terminal"
+                           OR
+            VS Code open karke Terminal > New Terminal se bhi folder ke andar aa sakte ho.
+
+Step 3: Git Clone Command Run Karo
+        1) Ab terminal me yeh command run karo (apna URL paste karo):
+               For eg.("git clone https://github.com/your-username/MyProject.git")
+  
+  GitHub ka poora project local system me download ho jayega, ek naye folder ke andar.
+ 
+
+
+
+
+
+
+
+
+
+
+
