@@ -35,6 +35,20 @@ VS Code Open Karo aur apne project folder me jao.
                       b)git remote add origin https://github.com/your-username/MyProject.git
 
  Step 6: Code GitHub Pe Push Karo
-          i) git push origin main  ----------Isse aapka project GitHub pe upload ho jayega.
+          i) git push -u origin main  ----------Isse aapka project GitHub pe upload ho jayega.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+🔄 Already Existing Git Project Me Changes Push Karne Ke Steps:
+     
+     1) git status → Check karo kya changes hue hain
+
+     2) git add . → Sab changes ko stage karo
+
+     3) git commit -m "Kya change kiya uska message"
+
+     4) git push origin main → GitHub pe upload
+
+
 
 
