@@ -9,25 +9,7 @@ git remote add origin https://github.com/kartikmisal17/menucard.git
 git push origin main
 
 
-postgres://123qwe:5432/internship
 
-postgres://postgres:123qwe@localhost:5432/internship
-
-
-//GET MENUCARD
-app.get('/menucard',async (req,res)=>{
-  var result=await pool.query('select mid,menu_name,menu_price,food_category,quantity from menu,food_cat,qty_mast where  food_cat.fid=menu.fid and qty_mast.qid=menu.qid;')
-  res.json({ menu: result.rows});
-})
-
-
-https://menu-card-puce.vercel.app/
-
-
-SELECT m.mid, m.menu_name, m.menu_price, f.food_category, q.quantity
-      FROM menu m
-      INNER JOIN food_cat f ON m.fid = f.fid
-      INNER JOIN qty_mast q ON m.qid = q.qid
 
 git remote remove origin
 git remote add origin https://github.com/kartikmisal17/menucard.git

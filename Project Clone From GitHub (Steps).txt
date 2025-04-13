@@ -18,8 +18,35 @@ Step 3: Git Clone Command Run Karo
         1) Ab terminal me yeh command run karo (apna URL paste karo):
                For eg.("git clone https://github.com/your-username/MyProject.git")
   
-  GitHub ka poora project local system me download ho jayega, ek naye folder ke andar.
+        GitHub ka poora project local system me download ho jayega, ek naye folder ke andar,Uss Project Folder Open Karo.
+
+
+ Step 4: Cloning Ke Baad Setup Aur Error Fix Steps:
+                     1) Dependencies Install Karo:
+                                            npm install
+                     2) Vite Error Aaye Toh Fix karo:
+                                            npm install vite --save-dev
+                     3) Ab Dev Server Start Karo:
+                                            npm run dev
+
+
+🎉 You're Done!
+Ab tumhara project properly chalna chahiye on localhost:5173
+
+
  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
